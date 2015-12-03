@@ -1,1 +1,83 @@
+<html>
+  <head>
+    <title>TWT_TUT2_Q4</title>
+  </head>
+  
+  <body>
+      <form method="post" action="send.php">
+        <table>
+          <tr>
+            <td><strong>What kinds of car would you like to buy?</strong></td>
+          </tr>
+          
+          <tr>
+            <td>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <input type="radio" name="car" value="proton"checked>Proton
+              <input type="radio" name="car" value="honda">Honda
+              <input type="radio" name="car" value="ferrari">Ferrari
+              <input type="radio" name="car" value="ford">Ford
+            </td>
+          </tr>  
+          <tr>
+            <td><strong>What colour do you want on your car?</strong></td>
+          </tr>
+          
+          <tr>
+			<td>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			 <select name="carcolor">
+              <option value="white">White</option>
+              <option value="red">Red</option>
+              <option value="black"option selected>Black</option>
+              <option value="blue">Blue</option>
+             </select>
+            
+            Other:<input type="text" name="others">
+			</td>
+          </tr>
+          
+          <tr>
+            <td><strong>Enter a short description for your preferred car:</strong></td>
+          </tr>
+          
+          <tr>
+            <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea name="comment" cols="50" rows="3" maxlength="500"></textarea></td>
+          </tr>
+          
+          <tr>
+            <td><strong>Tell us how to get in touch with you</strong></td>
+          </tr>
+          
+          <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="n"></td>
+          </tr>
+          
+          <tr>
+             <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail&nbsp;&nbsp;<input type="email" name="email"></td>
+          </tr>
+          
+          <tr>
+             <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="tel"></td
+          </tr>
+          
+          <tr>
+             <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FAX&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="fax"></td>
+          </tr>
+          <br>
+          
+          <tr>
+            <td>
+			 <input type="checkbox" name="opt" value="contact">Please contact me as soon as possible regarding this matter.
+           </td>
+		  </tr>
+          
+          <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="send" value="Send"><input type="reset" name="clr" value="Clear"></td>
+          </tr>
+          
+        </table>
+      </form>
+  </body>
+</html>
 
